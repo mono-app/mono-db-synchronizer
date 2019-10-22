@@ -1,0 +1,25 @@
+{
+  "name": "mono-db-synchronizer",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "_moduleAliases": {
+    "@app": "app",
+    "@keys": "keys"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "firebase-admin": "^8.6.1",
+    "module-alias": "^2.2.2",
+    "moment": "^2.24.0",
+    "pg": "^7.12.1",
+    "uuid": "^3.3.3"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "migration": "node migration.js",
+    "experiment": "node experiment.js"
+  }
+}
